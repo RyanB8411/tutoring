@@ -19,25 +19,52 @@ Topic for loops.
     
 #Lets Practice
     #Create a for loop to find the random string 'banana'
-    
-fruits = ['apple', 'orange', 'strawberry', 'banana', 'kiwi', 'banana']
+
+
+tokens = ['<greeting>', 'Hello World!', '</greeting>']
+
 count = 0
-indexes = []
-lettera = 0
 
-for fruit in fruits:#fruit is an imaginary object you are using to assign a temporary variable 
-    count += 1
-    if fruit == 'banana':
-        indexes.append(count)
-        if len(indexes) == 1:
-            for a in fruit:
-                if a == 'a':
-                    lettera += 1
+for token in tokens:
+    if token[0] == '<':
+        token[0] == '!'
+        print(token[0])
+        if token[-1] == '>':
+            count += 1
+    else:
         continue
+
+print(count)
+
+
+
+#Problem 1
+
+"""
+items = ['first thing', 'second thing']
+
+html_str = "<ul>\n"
+
+for item in items:
     
-print('banana is the', *indexes, 'element in your list')
-print('there are', lettera, 'a\'s in banana')
+    html_str += "<li>{}</li>\n".format(item)
+    
+html_str += "<ul>"
 
-list2 = list(filter(lambda name: name == 'banana', fruits))
-print(len(list2))
+print(html_str)
+"""
 
+
+
+
+"""
+names = ["Joey Tribbiani", "Monica Geller", "Chandler Bing", "Phoebe Buffay"]
+
+usernames = []
+
+for i in names:
+    
+    usernames.append(i.lower().replace(" ", "_"))
+    
+print(usernames, names)
+"""
