@@ -1,13 +1,42 @@
-print("Ticket Kiosk")
+# import random 
 
-age = int(input("Enter age: "))
+# NumRounds = 0
+# BankPoints = 0 
+# RoundPoints = 0
 
-if age < 15:
-  
-  print("The entrance price is $20")
-  
-elif age >= 15:
-  
-  print("The entrance price is $40")
-  
-      
+# print(f"Welcome to Pig it is round {NumRounds}. How many turns will it take you to win?")
+
+# while BankPoints <100:
+    
+#   if RoundPoints != 0:
+#     answer = input(f"\nCurrent Round: {NumRounds}\nBanked Points: {BankPoints}\nCurrent Points: {RoundPoints}\nCurrent Roll: {DiceRoll}")
+        
+#     if answer == "yes": 
+#         BankPoints += RoundPoints
+#         RoundPoints = 0 
+#         NumRounds = NumRounds+1
+#   elif RoundPoints == 0:
+#     NumRounds += 1
+        
+#   DiceRoll = random.randint(1,6)
+    
+#   if DiceRoll == 1: 
+#       RoundPoints = 0 
+#       print(f"You rolled a 1 Round {NumRounds}'s points are 0.")
+#       NumRounds = NumRounds+1
+       
+#   if 1 < DiceRoll < 7:
+#       RoundPoints += DiceRoll
+        
+
+# print(f"\nCongratulation! You won on round {NumRounds}! With {BankPoints} points!")
+
+time = input("Is it currently day or night?:" )
+if time == 'night':
+  stars = input("Can you see the stars?: ")
+  if stars == "yes":
+    print ("Oh wow! I wonder how many there are...")
+  else:
+    print ("Oh, that's a shame, the stars are so beautiful")
+else:
+  print ("I hope the sun is shining on you!")
