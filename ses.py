@@ -54,5 +54,4 @@ while in_room:
   else:
     print("Invalid input try again.")
 #This is where we will end our session today.
-#Working Today?
-#
+#Working
