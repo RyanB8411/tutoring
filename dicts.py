@@ -7,3 +7,5 @@ key_to_find = 'sandwiches'
 
 sorted_basket = dict(sorted(basket_items.items(), key = lambda item: item[1], reverse = True))
 print(sorted_basket)
+
+#Working with dictionaries
