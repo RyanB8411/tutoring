@@ -9,3 +9,4 @@ sorted_basket = dict(sorted(basket_items.items(), key = lambda item: item[1], re
 print(sorted_basket)
 
 #Working with dictionaries
+#Today do we have any questions reguarding dictionaries?
