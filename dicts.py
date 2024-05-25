@@ -10,3 +10,5 @@ print(sorted_basket)
 
 #Working with dictionaries
 #Today do we have any questions reguarding dictionaries?
+
+print(sorted_basket.items())
