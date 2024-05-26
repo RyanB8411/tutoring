@@ -12,3 +12,4 @@ print(sorted_basket)
 #Today do we have any questions reguarding dictionaries?
 
 print(sorted_basket.items())
+print(sorted_basket.keys())
