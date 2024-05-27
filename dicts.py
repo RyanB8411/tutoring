@@ -13,3 +13,7 @@ print(sorted_basket)
 
 print(sorted_basket.items())
 print(sorted_basket.keys())
+
+sorted_basket.popitem()
+
+print(sorted_basket)#Notic we remove the last item kite
