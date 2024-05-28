@@ -16,4 +16,7 @@ print(sorted_basket.keys())
 
 sorted_basket.popitem()
 
-print(sorted_basket)#Notic we remove the last item kite
+print(sorted_basket)#Notice we remove the last item kite
+
+sorted_basket.clear()
+print(sorted_basket)#Here we clear our entire dictionary so it is empty
